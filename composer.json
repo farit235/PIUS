@@ -1,0 +1,19 @@
+{
+    "name": "miet/u8192791-lab1",
+    "description": "lab1",
+    "type": "project",
+    "require": {
+        "symfony/validator": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miet\\U8192791Lab1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farit Sib",
+            "email": "farit2304@gmail.com"
+        }
+    ]
+}
