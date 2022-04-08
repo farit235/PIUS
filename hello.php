@@ -119,7 +119,7 @@ echo ("<br>");
 
 
 
-for ($i=0; $i <= count($allDepartments); $i++)
+for ($i=0; $i < count($allDepartments); $i++)
 {
     $maxDep = count($allDepartments[$i]->employee);
     $maxSal = $allDepartments[$i]->sumSalary();
