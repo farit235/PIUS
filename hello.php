@@ -103,17 +103,21 @@ echo ("<br>");
 
 
 
-$allDepartments= [$department1, $department2];
+$allDepartments = [$department1, $department2];
 $allEmpl = [];
-for ($i=0; $i <= count($allDepartments); $i++)
+for ($i=0; $i < count($allDepartments); $i++)
 {
     $maxDep = count($allDepartments[$i]->employee);
     array_push($allEmpl, $maxDep);
 }
 
+echo "q";
+
 $maxEmpl = max($allEmpl); //max qty emploee
 echo ($maxEmpl);
 echo ("<br>");
+
+
 
 for ($i=0; $i <= count($allDepartments); $i++)
 {
@@ -126,6 +130,3 @@ for ($i=0; $i <= count($allDepartments); $i++)
         echo ($maxSalaryDep);
     }
 }
-
-
-
